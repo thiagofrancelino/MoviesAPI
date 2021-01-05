@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="SimpleInjector" Version="5.2.0" />
+    <PackageReference Include="SimpleInjector.Integration.AspNetCore.Mvc.Core" Version="5.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMDb.Application\IMDb.Application.csproj" />
+    <ProjectReference Include="..\IMDb.CrossCutting\IMDb.CrossCutting.csproj" />
+    <ProjectReference Include="..\IMDb.Domain\IMDb.Domain.csproj" />
+    <ProjectReference Include="..\IMDb.RepositoryReadOnly\IMDb.RepositoryReadOnly.csproj" />
+    <ProjectReference Include="..\IMDb.Repository\IMDb.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

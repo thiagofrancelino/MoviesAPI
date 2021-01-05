@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IMDb.CrossCutting\IMDb.CrossCutting.csproj" />
+    <ProjectReference Include="..\IMDb.Domain\IMDb.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

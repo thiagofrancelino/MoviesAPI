@@ -1,0 +1,10 @@
+TODO
+- Mover connection string para o appSettings (utilizado no BaseRepositoryReadOnly e no IMDbContext)
+- Refatorar container de injeção
+- Padronizar retornos 
+- Escrever dockerfile
+- Escrever testes
+- Melhorar doc swagger
+- Melhorar dtos
+- Middleware para pegar exceptions
+- Consulta dos registros paginados com dapper
